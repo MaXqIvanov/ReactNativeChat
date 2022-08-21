@@ -7,7 +7,7 @@ const router = new Router();
 
 router.get('/auth', (req: Request, res: Response)=> {
     
-    return res.json({id: 22})
+    return res.status(201).json({id: 22})
 });
 
 
